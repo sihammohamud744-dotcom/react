@@ -1,11 +1,11 @@
 import React from 'react'
-import Greeting from './greatings'
+import Greeting from './Greetings'
 
 const Header = () => {
   return (
 
     <div>
-        <h1>This is my first React tutotial</h1>
+      <h1>This is my first React tutotial</h1>
     </div>
   )
 }

@@ -1,16 +1,14 @@
 import './App.css'
 import Header from './components/Header'
-import Greeting from './components/greatings'
-import Student from './components/student'
+import Greeting from './components/Greetings'
+import Student from './components/Student'
 function App() {
   return (
 
     <>
-    <Fragment></Fragment>
+      <Greeting name="Siham" surname="mohamud" />
 
-      <Greeting name="Siham" surname= "mohamud" />
-
-  <Student age= "22" isStudent= {"true"} />
+      <Student age={22} isStudent={true} />
 
       <Header />
       <Header />
