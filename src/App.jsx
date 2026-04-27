@@ -1,22 +1,15 @@
 import './App.css'
-import Header from './components/Header'
-import Greeting from './components/Greetings'
-import Student from './components/Student'
+import Greetings from './Components/Greetings';
+
 function App() {
   return (
 
     <>
-      <Greeting name="Siham" surname="mohamud" />
-
-      <Student age={22} isStudent={true} />
-
-      <Header />
-      <Header />
-      <Header />
-      <Header />
+      <h1>this is my problem </h1>
+      <h2>what i am learning is my problem</h2>
+      <Greetings />
 
     </>
-  )
+  );
 }
-
 export default App
